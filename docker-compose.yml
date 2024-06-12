@@ -46,10 +46,10 @@ services:
     env_file:
       - ./docker/env.local
     environment:
-      ARKLET_PORT: "8000"
+      ARKLET_PORT: "8002"
       RESOLVER: "true"
     ports:
-      - "8000:8000"
+      - "8002:8002"
 
 volumes:
   postgres:
